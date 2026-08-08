@@ -1,0 +1,2 @@
+it is important to hide the data to prevent unauthorized changes,
+and to present only what the user needs and access to it easily and it makes system clean and simple
