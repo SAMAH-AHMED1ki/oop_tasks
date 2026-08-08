@@ -1,0 +1,25 @@
+
+#include <vector>
+#include <iostream>
+using namespace std;
+int main()
+{
+	int n;
+	int sum = 0;
+	cin >> n;
+	for (int i = 1;i <= n;i++) {
+		sum += i;
+	}
+	cout << sum << endl;
+	int c = (n * (1 + n))/2;
+	cout << c ;
+
+}
+
+task 1:
+we can use loop or formula to compute sum 1 to N.
+the second approach is more efficient and simple, while the first one is also simple, but slow.
+
+task 2 :
+we can use one fun to fill the rectangle, it will work the same on all platforms, so we will use a shared library to avoid repeated code.
+for the second fun, we will keep the same name, but we will write different behavior based on the OS platform.
